@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${titulo}"></title>
+</head>
+<body>
+<h1 th:text="${titulo}"></h1>
+<div>selecciona uno de los enlaces</div>
+<br>
+<a th:href="@{/params/string(t1='joder')}">joder</a>
+<br>
+<a th:href="@{/params/string(t1='pinche curso lento')}">pinche curso lento</a>
+<br>
+<a th:href="@{/params/mixed-params(t1='joder', numero=10)}">joder</a>
+<br>
+<a th:href="@{/params/servlet-params(t1='pinche curso lento', numero =100)}">pinche curso lento</a>
+</body>
+</html>

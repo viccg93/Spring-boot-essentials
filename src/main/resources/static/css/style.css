@@ -1,0 +1,12 @@
+h1.color-rojo{
+    color: red;
+}
+
+h2.color-azul{
+    color: blue;
+}
+
+.container-center-elements{
+    width: 100%;
+    text-align: center;
+}
